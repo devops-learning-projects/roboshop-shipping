@@ -7,3 +7,7 @@ on:
 jobs:
   reuse:
     uses: devops-learning-projects/roboshop-github-actions/.github/workflows/ci-main.yml@main
+    with:
+      app_type: java
+      app_name: shipping
+
